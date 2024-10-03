@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <title>Gallery</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .header {
+        background-color: #f2f2f2;
+        padding: 20px;
+        text-align: center;
+      }
+      .nav {
+        margin: 20px 0;
+        text-align: center;
+      }
+      .nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: blue;
+      }
+      .content {
+        padding: 20px;
+      }
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+      .gallery img {
+        width: 300px;
+        height: 200px;
+        margin: 10px;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+      }
+      .footer {
+        background-color: #f2f2f2;
+        text-align: center;
+        padding: 10px;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Galeri Foto</h1>
+      <p>Kumpulan foto kegiatan dan hobi</p>
+    </div>
+
+    <div class="nav">
+      <a href="home.html">Home</a> | <a href="profil.html">Profil</a> |
+      <a href="about.html">About</a> | <a href="galery.html">Gallery</a> |
+      <a href="kontak.html">Kontak</a>
+    </div>
+
+    <div class="content">
+      <h2>Foto-foto Favorit Saya</h2>
+      <div class="gallery">
+        <img src="travel1.jpg" alt="Perjalanan ke Gunung" />
+        <img src="tech1.jpg" alt="Coding di Kafe" />
+        <img src="travel2.jpg" alt="Pantai di Bali" />
+        <img src="tech2.jpg" alt="Workshop Teknologi" />
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>&copy; 2024 Ahmad Fahmi Abdillah</p>
+    </div>
+  </body>
+</html>

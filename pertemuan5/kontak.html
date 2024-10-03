@@ -1,0 +1,119 @@
+<html>
+  <head>
+    <title>Kontak</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .header {
+        background-color: #f2f2f2;
+        padding: 20px;
+        text-align: center;
+      }
+      .nav {
+        margin: 20px 0;
+        text-align: center;
+      }
+      .nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: blue;
+      }
+      .content {
+        padding: 20px;
+      }
+      .contact-form {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 8px;
+        max-width: 600px;
+        margin: auto;
+      }
+      .contact-form label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+      .contact-form input,
+      .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+      .contact-form button {
+        background-color: blue;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .footer {
+        background-color: #f2f2f2;
+        text-align: center;
+        padding: 10px;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Kontak Saya</h1>
+      <p>
+        Silakan hubungi saya melalui formulir di bawah ini atau melalui email
+      </p>
+    </div>
+
+    <div class="nav">
+      <a href="home.html">Home</a> | <a href="profil.html">Profil</a> |
+      <a href="about.html">About</a> | <a href="galery.html">Gallery</a> |
+      <a href="kontak.html">Kontak</a>
+    </div>
+
+    <div class="content">
+      <h2>Hubungi Saya</h2>
+      <div class="contact-form">
+        <form
+          action="mailto:adielzbuser1916@gmail.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <label for="name">Nama:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Masukkan nama Anda"
+            required
+          />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Masukkan email Anda"
+            required
+          />
+
+          <label for="message">Pesan:</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Tuliskan pesan Anda"
+            required
+          ></textarea>
+
+          <button type="submit">Kirim</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>&copy; 2024 Ahmad Fahmi Abdillah</p>
+    </div>
+  </body>
+</html>
